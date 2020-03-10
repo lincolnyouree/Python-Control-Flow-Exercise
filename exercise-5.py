@@ -12,3 +12,8 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+fib = [0, 1]
+for i in range(0,51):
+    fib.append(fib[i] + fib[i + 1])
+    print(f'term: {i} / number: {fib[i]}')
