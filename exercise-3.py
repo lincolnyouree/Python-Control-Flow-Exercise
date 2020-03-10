@@ -19,3 +19,10 @@ for year in range(1, age + 1):
     else:
         dog_age += 7
 print(f'The dog\'s age in dog years is {dog_age}')
+
+# more elegant solution: 
+
+# age = int(input('Input a dog\'s age in human years: '))
+# if age < 3:
+#     dog_age = age*10
+# else dog_age = 20 + (age - 2) * 7
